@@ -1,3 +1,22 @@
+# Desafio - Desenvolvendo a Tela de Cadastro da Plataforma DIO com React
+
+Resposta ao desafio proposto no bootcamp DIO, XP Inc Fullstack Developer.
+
+## Considerações sobre o projeto:
+
+Dado o projeto inicial, algumas funcionalidades simples foram adicionadas:
+
+Quando da criação de conta, o programa validará (de modo simples) se o email cadastrado já está no banco (db.json), negando criação da conta caso exista registro, autorizando e direcionando à página feed caso haja sucesso na criação, havendo ainda validações dos campos, como mínimo e máximo de caracteres, email válido, etc.
+
+Quando da tentativa de login, as validações básicas de login e senha também serão feitas (mínimo de caracteres, email válido, etc.). Havendo sucesso no login, direcionado para a página feed.
+
+IMPORTANTE: A maneira que o código foi estruturado fará a alteração do arquivo db.json, adicionando e persistindo os registros mesmo após o encerramento da aplicação.
+
+## Para rodar a aplicação:
+
+Considerando que o(s) avaliador(es) esteja com as devidas instalações do npm/yarn/npx/demais dependências instaladas, o projeto só depende de duas inicializações via CLI para iniciar: yarn api (iniciará a api configurada em package.json - scripts -> "api") e o yarn start run (iniciará o projeto react)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
